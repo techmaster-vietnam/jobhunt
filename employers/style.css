@@ -1,0 +1,85 @@
+/* a{
+    color: #000;
+} */
+.menu{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding:  10px 30px;
+}
+
+.menu img{
+    /* width: 100px; */
+    height: 40px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.log-in{
+    float: right;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-item .active{
+    font-weight: 600;
+}
+
+.table-title{
+    font-weight: 600;
+}
+
+.employers-nav{
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-employer{
+    background-color: #0864d4;
+    font-size: 18px;
+    color: #fff;
+    border-color: #0864d4;
+}
+
+.employers-col{
+    background-color: #fff;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0.25px;
+    align-items: center;
+    display: flex;
+}
+
+.employers-logo{
+    width: 40px;
+}
+
+.employers-action span{
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0 10px 0 0;
+    text-decoration: underline;
+    color: #0864d4;
+    cursor: pointer;
+}
+
+.employers-row{
+    height: 80px;
+}
+
+.employers-pagination{
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.employers-name{
+    text-decoration: underline;
+    color: #0864d4;
+}
